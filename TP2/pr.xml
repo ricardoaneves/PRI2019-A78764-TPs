@@ -23,13 +23,13 @@
     <ficheiros>
         <ficheiro>
             <designacao>Manifesto DTD (pr.dtd)</designacao>
-            <link>XXXXX</link>
+            <link>https://github.com/ricardoaneves/PRI2019-A78764-TPs/blob/master/TP2/pr.dtd</link>
             <designacao>Manifesto XML (pr.xml)</designacao>
-            <link>XXXXX</link>
+            <link>https://github.com/ricardoaneves/PRI2019-A78764-TPs/blob/master/TP2/pr.xml</link>
             <designacao>Queries Agenda (agenda.txt)</designacao>
-            <link>XXXXX</link>
+            <link>https://github.com/ricardoaneves/PRI2019-A78764-TPs/blob/master/TP2/agenda.txt</link>
             <designacao>Queries Arqueossitos (arq.txt)</designacao>
-            <link>XXXXX</link>
+            <link>https://github.com/ricardoaneves/PRI2019-A78764-TPs/blob/master/TP2/arq.txt</link>
         </ficheiro>
     </ficheiros>
     <data>06/10/2019</data>
