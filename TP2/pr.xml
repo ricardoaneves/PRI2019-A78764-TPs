@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE manifesto SYSTEM "file:/home/ricardo/Universidade/PLC/PRI/Aula2/TP2/pr.dtd">
+<manifesto>
+    <info>
+        <nomechave>PRI2019-A78764-TP2</nomechave>
+        <titulo>Criação do Manifesto e queries XPath</titulo>
+        <subtitulo></subtitulo>
+        <datainicio>30 de Setembro de 2019</datainicio>
+        <datafim>6 de Outubro de 2019</datafim>
+        <supervisor>
+            <nome>José Carlos Ramalho</nome>
+            <website>http://www4.di.uminho.pt/~jcr/</website>
+        </supervisor>
+    </info>
+    <equipa>
+        <aluno>
+            <nome>Ricardo André Araújo Neves</nome>
+            <numero>A78764</numero>
+            <email>a78764@alunos.uminho.pt</email>
+        </aluno>
+    </equipa>
+    <resumo>Este segundo trabalho prático consistiu na criação de um DTD (Document Type Definition) para o manifesto, que irá ser utilizado regularmente em trabalhos futuros. Com este DTD, é facilmente gerado um ficheiro XML, que está a ler neste momento. Para além disto, foram realizadas uma série de queries XPath, de modo a conseguir encontrar informação mais facilmente num ficheiro XML. As queries implementadas são referentes a ficheiros XML disponibilizados pelo docente da Unidade Curricular, que consistem numa agenda de contactos e num conjunto de arqueossitios.</resumo>
+    <ficheiros>
+        <ficheiro>
+            <designacao>Manifesto DTD (pr.dtd)</designacao>
+            <link>XXXXX</link>
+            <designacao>Manifesto XML (pr.xml)</designacao>
+            <link>XXXXX</link>
+            <designacao>Queries Agenda (agenda.txt)</designacao>
+            <link>XXXXX</link>
+            <designacao>Queries Arqueossitos (arq.txt)</designacao>
+            <link>XXXXX</link>
+        </ficheiro>
+    </ficheiros>
+    <data>06/10/2019</data>
+</manifesto>

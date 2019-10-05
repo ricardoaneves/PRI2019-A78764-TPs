@@ -1,0 +1,5 @@
+//IDENTI[contains(../CONCEL, "Amares")]
+//CONCEL
+//DESCRI[contains(../CONCEL, "Montalegre")]
+count(//ARQELEM[contains(./CONCEL, "Amares")])
+//ARQELEM[contains(., "Castro")]
