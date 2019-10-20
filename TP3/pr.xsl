@@ -11,7 +11,7 @@
                     <title>Manifesto</title>
                     <meta charset="UTF-8"/>
                 </head>
-                <body>
+                <body bgcolor="#ebfaef">
                     <h1 align="center" style="color:#08540b">Manifesto</h1>
                     <xsl:apply-templates/>
                 </body>
@@ -93,6 +93,10 @@
         </div>
     </xsl:template>
     
+    <xsl:template match="i">
+        <i><xsl:apply-templates/></i>
+    </xsl:template>
+    
     <xsl:template match="deliverables">
         <div style="margin:1cm">
             <h2 style="color:#08540b">Deliverables</h2>
@@ -101,8 +105,9 @@
     </xsl:template>
     
     <xsl:template match="deliverable">
-        <div>Name: <xsl:value-of select="."/></div>
-        <a href="{@path}"><xsl:value-of select="@path"/></a>
+        <div>
+            <a href="{@path}"><xsl:value-of select="."/></a>
+        </div>
     </xsl:template>
     
     <xsl:template match="xref">

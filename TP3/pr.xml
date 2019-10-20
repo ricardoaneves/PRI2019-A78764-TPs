@@ -22,15 +22,22 @@
         </member>
     </workteam>
     <abstract>
-        <p>ABSTRACT ABSTRACT ABSTRACT</p>
-        <p>ABSTRACT ABSTRACT ABSTRACT ABSTRACT</p>
-        <p>ABSTRACT ABSTRACT ABSTRACT ABSTRACT ABSTRACT</p>
+        <p>Este trabalho consistiu, numa primeira fase, na criação de uma página HTML que acolhesse os dados do Manifesto individual. A página que</p>
+        <p>está a ver neste momento foi resultado da fusão de um ficheiro XML com um ficheiro XSL, desenvolvidos com</p>
+        <p>a ajuda da ferramenta <i>Oxygen</i>, aconselhada pelo docente da Unidade Curricular.</p>
+        <p>Na segunda e última fase do trabalho, foi proposto criar outra página HTML para acolher e apresentar os dados contidos</p>
+        <p>num ficheiro XML sobre uma série de Arqueossítios. Aqui, foi-nos apresentado um <i>data-set</i> num ficheiro XML, em que</p>
+        <p>tivemos que desenvolver outro ficheiro XSL que processasse todas as <i>tags</i> disponíveis. No fim, os dois ficheiros são</p>
+        <p>interligados, resultando num conjunto de páginas HTML (uma página com a lista de todos os arqueossítios, e uma página HTML para</p>
+        <p>cada um dos mesmos).</p>
     </abstract>
     <deliverables>
-        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/tree/master/TP3/pr.dtd">pr.dtd</deliverable>
-        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/tree/master/TP3/pr.xml">pr.xml</deliverable>
-        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/tree/master/TP3/pr.xsl">pr.xsl</deliverable>
-        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/tree/master/TP3/pr.html">pr.html</deliverable>
-        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/tree/master/TP3/website/index.html">index.html</deliverable>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/tree/master/TP3/pr.dtd">DTD do Manifesto</deliverable>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/tree/master/TP3/pr.xml">XML do Manifesto</deliverable>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/tree/master/TP3/pr.xsl">XSL do Manifesto</deliverable>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/tree/master/TP3/pr.html">HTML do Manifesto (ficheiro atual)</deliverable>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/tree/master/TP3/arq.xml">XML dos Arqueossítios</deliverable>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/tree/master/TP3/arq.xsl">XSL dos Arqueossítios</deliverable>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/tree/master/TP3/website/index.html">HTML dos Arqueossítios</deliverable>
     </deliverables>
 </pr>
