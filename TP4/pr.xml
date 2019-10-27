@@ -29,9 +29,14 @@
         <p>da música passada como argumento no URL.</p>
     </abstract>
     <deliverables>
-        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/tree/master/TP4/pr.dtd">DTD do Manifesto</deliverable>
-        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/tree/master/TP4/pr.xml">XML do Manifesto</deliverable>
-        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/tree/master/TP4/pr.xsl">XSL do Manifesto</deliverable>
-        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/tree/master/TP4/pr.html">HTML do Manifesto (ficheiro atual)</deliverable>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/blob/master/TP4/pr.dtd">DTD do Manifesto</deliverable>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/blob/master/TP4/pr.xml">XML do Manifesto</deliverable>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/blob/master/TP4/pr.xsl">XSL do Manifesto</deliverable>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/blob/master/TP4/pr.html">HTML do Manifesto (ficheiro atual)</deliverable>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/blob/master/TP4/arq-son-EVO.xml">XML completo do arquivo sonoro</deliverable>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/blob/master/TP4/doc2html.xsl">XSL para divisão do arquivo sonoro</deliverable>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/blob/master/TP4/arq-son.xsl">XSL do arquivo sonoro</deliverable>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/blob/master/TP4/arq.js">Servidor do arquivo sonoro</deliverable>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/blob/master/TP4/package.json">Package.json</deliverable>
     </deliverables>
 </pr>
