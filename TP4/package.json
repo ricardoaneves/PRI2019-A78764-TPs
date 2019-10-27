@@ -1,0 +1,15 @@
+{
+  "name": "tp4",
+  "version": "1.0.0",
+  "description": "PRI-A78764-TP4",
+  "main": "arq.js",
+  "scripts": {
+    "start": "node arq"
+  },
+  "repository": {
+    "type": "git",
+    "url": "www.github.com/ricardoaneves"
+  },
+  "author": "Ricardo Neves",
+  "license": "ISC"
+}
