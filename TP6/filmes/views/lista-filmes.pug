@@ -1,0 +1,23 @@
+extends layout
+
+block content
+    .w3-container
+        h1 Lista de Filmes
+        table.w3-table-all.w3-centered
+            tr
+                th ID
+                th Título
+                th Informações
+                th Remover
+            each filme in lista
+                tr
+                    td= filme._id
+                    td= filme.title
+                    td
+                        form.w3-container(action='/filmes/'+filme._id method='GET')
+                            input.w3-button.w3-border.w3-blue-grey(type='submit' value='Ver Info')
+                    td
+                        button.w3-button.w3-border.w3-blue-grey(onclick="apagaFilme('" + filme._id + "')") Remover
+    footer.w3-container
+        adress Gerado por Gestão de Filmes App ::
+            a(href='/') Voltar à página anterior

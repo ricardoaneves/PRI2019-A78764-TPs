@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <meta>
+        <keyname>PRI2019-A78764-TP6</keyname>
+        <title>Criação de um servidor para gestão de filmes</title>
+        <subtitle></subtitle>
+        <bdate>04-11-2019</bdate>
+        <edate>10-11-2019</edate>
+        <supervisor>
+            <name>José Carlos Ramalho</name>
+            <email>jcr@di.uminho.pt</email>
+            <homepage>http://www4.di.uminho.pt/~jcr/</homepage>
+        </supervisor>
+    </meta>
+    <workteam>
+        <member>
+            <identifier>A78764</identifier>
+            <name>Ricardo André Araújo Neves</name>
+            <email>a78764@alunos.uminho.pt</email>
+            <photo path="photo.jpg"/>
+        </member>
+    </workteam>
+    <abstract>
+        <p>Este trabalho consistiu na criação de um servidor para a gestão de filmes. Para isto, o docente</p>
+        <p>da Unidade Curricular disponibilizou um ficheiro JSON contendo milhares de filmes únicos, detalhados por</p>
+        <p>título, ano, atores participantes e gênero(s). </p>
+        <p>Assim, foi implementado um serviço que apresenta a lista de todos os filmes disponíveis e as suas informações</p>
+        <p>pertinentes. Para além disto, é possível acrescentar e remover um filme da base de dados, suportada pela</p>
+        <p>ferramenta MongoDB.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/blob/master/TP6/pr.dtd">DTD do Manifesto</deliverable>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/blob/master/TP6/pr.xml">XML do Manifesto</deliverable>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/blob/master/TP6/pr.xsl">XSL do Manifesto</deliverable>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/blob/master/TP6/pr.html">HTML do Manifesto (ficheiro atual)</deliverable>
+    </deliverables>
+</pr>
