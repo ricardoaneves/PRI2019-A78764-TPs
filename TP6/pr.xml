@@ -34,5 +34,10 @@
         <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/blob/master/TP6/pr.xml">XML do Manifesto</deliverable>
         <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/blob/master/TP6/pr.xsl">XSL do Manifesto</deliverable>
         <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/blob/master/TP6/pr.html">HTML do Manifesto (ficheiro atual)</deliverable>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/blob/master/TP6/filmes/controllers/filmes.js">Controlador para os filmes</deliverable>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/blob/master/TP6/filmes/models/filmes.js">Schema dos filmes</deliverable>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/blob/master/TP6/filmes/routes">Routes do servidor</deliverable>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/tree/master/TP6/filmes/views">Views do servidor</deliverable>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/blob/master/TP6/filmes/public/javascripts/apagar.js">Javascript para apagar um filme</deliverable>
     </deliverables>
 </pr>
