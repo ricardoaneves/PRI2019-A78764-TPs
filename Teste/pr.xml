@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <meta>
+        <keyname>Teste Teórico</keyname>
+        <title>Teste Teórico de PRI em 13 de Janeiro de 2020</title>
+        <subtitle></subtitle>
+        <bdate>13-01-2020</bdate>
+        <edate>13-01-2020</edate>
+        <supervisor>
+            <name>José Carlos Ramalho</name>
+            <email>jcr@di.uminho.pt</email>
+            <homepage>http://www4.di.uminho.pt/~jcr/</homepage>
+        </supervisor>
+    </meta>
+    <workteam>
+        <member>
+            <identifier>A78764</identifier>
+            <name>Ricardo André Araújo Neves</name>
+            <email>a78764@alunos.uminho.pt</email>
+            <photo path="photo.jpg"/>
+        </member>
+    </workteam>
+    <abstract>
+        <p><b>Exercício 1</b></p>
+        <p>A persistência dos dados foi feita em <i>MongoDB</i>, sendo que foi necessário corrigir o ficheiro JSON</p>
+        <p>disponibilizador pelo docente da Unidade Curricular. Este ficheiro continha caractéres inválidos à importação</p>
+        <p>do ficheiro para a base de dados, pelo que tiveram de ser eliminados.</p>
+        <p>Corrigido o ficheiro JSON, foi importando com o seguinte comando:</p>
+        <p>mongoimport -d publications -c publications --jsonArray data/jcrpubs.json</p>
+        <p>Posto isto, a base de dados está populada e pronta a ser acedida através da API criada.</p>
+        <p>Para correr a resolução do exercício, terá que fazer <i>download</i> do servidor NodeJS e correr os seguintes comandos:</p>
+        <p>npm i</p>
+        <p>npm start</p>
+        <p>Para um melhor entendimento do resultado, aconselha-se o uso da ferramenta Postman.</p>
+        <p></p>
+        <p><b>Exercício 2</b></p>
+        <p>P: Quantas Tipologias estão catalogadas? </p>
+        <p>R: 76 Tipologias.</p>
+        <p>P: Quantos Entidades pertencem à Tipologia tip_FSS? </p>
+        <p>R: 5 entidades. </p>
+        <p>P: Em que processos a tipologia tip_FA participa como Comunicador? </p>
+        <p>R: Concessão de pensões de preço de sangue, Concessão de pensões por serviços excecionais e relevantes prestados</p>
+        <p>ao país, Concessão de pensões de ex-prisioneiro de guerra e Concessão de pensões por condecorações.</p>
+        <p>P: A que tipologias pertence a entidade ent_SEF?</p>
+        <p>R: Administração Pública e Forças e serviços de segurança.</p>
+        <p>Para correr a resolução do exercício, terá que fazer <i>download</i> do servidor NodeJS e correr os seguintes comandos:</p>
+        <p>npm i</p>
+        <p>npm start</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/blob/master/Teste/pr.dtd">DTD do Manifesto</deliverable>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/blob/master/Teste/pr.xml">XML do Manifesto</deliverable>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/blob/master/Teste/pr.xsl">XSL do Manifesto</deliverable>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/blob/master/Teste/pr.html">HTML do Manifesto (ficheiro atual)</deliverable>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/blob/master/Teste/Exercicio1">Resolução do exercício 1</deliverable>
+        <deliverable path="https://github.com/ricardoaneves/PRI2019-A78764-TPs/blob/master/Teste/Exercicio1">Resolução do exercício 2</deliverable>
+    </deliverables>
+</pr>

@@ -1,0 +1,16 @@
+extends layout
+
+block content
+
+  .w3-container
+    .w3-center
+      h1= tipologia.designacao
+    .w3-card
+      h2 Estado
+      p= tipologia.estado
+      h2 Sigla
+      p= tipologia.sigla
+    footer.w3-container
+    address CLAV
+      b
+        a(href='/') << Voltar à página inicial

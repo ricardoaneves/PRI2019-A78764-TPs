@@ -1,0 +1,26 @@
+extends layout
+
+block content
+
+  .w3-container
+    .w3-center
+      h1 CLAV: Classificação e Avaliação da Informação Pública
+    .w3-card
+      .w3-green
+        h2 Lista de Tipologias
+        .w3-white
+          table.w3-table-all.w3-centered
+            tr
+              th ID
+              th Estado
+              th Sigla
+              th Designação
+              each tipo in tipologias
+                tr
+                  th
+                    a(href='/' + tipo.id)= tipo.id
+                  th= tipo.estado
+                  th= tipo.sigla
+                  th= tipo.designacao
+    footer.w3-container
+    address CLAV
